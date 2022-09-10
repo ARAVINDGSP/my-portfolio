@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-family: italic;
+}
+
+.navigation {
+  height: 100px;
+  width: calc(100% - 500px);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: x-large;
+  padding: 0 10px;
+
+}
+
+.contact-us {
+  border: none;
+  font-size: large;
+  background-color: #9cfceb;
+  padding: 2px;
+  box-shadow: 0 0 10px rgb(0, 204, 255);
+  font-family: italic;
+}
+
+.body {
+  height: calc(100vh - 100px);
+  width: calc(100% - 500px);
+  margin: 0 auto;
+  display: flex;
+  
+}
+
+.image,
+.about_text {
+  height: 100%;
+  width: 50%;
+
+}
+
+div.image {
+  height: 50%;
+  width: 100%;
+  margin-left: auto;
+  border-radius: 50px;
+  
+}
+
+@font-face {
+  font-family: HANDORAN;
+  src: url("./font/HANDORAN.TTF");
+}
+.about_text{
+  font-style: initial;
+   margin: 10px;
+}
+
+.about_text h1{
+  color: white;
+  padding-top: 20px;
+  font-style: italic;
+
+}
+.about_text h2, h4{
+  color: lightseagreen;
+  padding-top: 20px; font-style: italic;
+}
+div .about_text{
+  color: white;
+  padding-bottom: 20px;
+}
+
+.DownloadCV {
+  border: none;
+  font-size: large;
+  background-color: #9cfceb;
+  padding: 2px;
+  box-shadow: 0 0 10px rgb(0, 204, 255);
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
